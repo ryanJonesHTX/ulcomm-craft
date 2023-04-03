@@ -1,0 +1,15 @@
+{% extends "_layouts/nav.twig"%}
+
+{% block content %}
+	<div class="mx-auto max-w-7xl px-6 pt-20 flex flex-col items-center justify-center lg:px-24 text-gray-600">
+		<h1 class="mt-4 max-w-lg text-4xl font-semibold sm:text-6xl">Company News</h1>
+		<div class="mx-auto lg:flex-auto mt-16 mb-16 border p-6">
+			{% for news in craft.entries.section('news').limit(5).all() %}
+				<a href="{{ news.url }}">
+					<h2 href="/" class="text-2xl font-bold">{{ news.title }}</h2>
+					<p class="text-sm">{{ news.excerpt }}</p>
+				</a>
+			{% endfor %}
+		</div>
+	</div>
+{% endblock %}

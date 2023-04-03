@@ -1,0 +1,42 @@
+{% extends "_layouts/mainNav" %}
+
+{% block content %}
+
+	<div class="pt-14 overflow-hidden">
+		<div class="mx-auto max-w-7xl px-6 pt-20 lg:flex lg:items-center lg:gap-x-10 lg:px-24">
+			<div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto lg:pb-20">
+				<span class="font-cousine font-bold text-[#58ffff]">{{ entry.heroEyebrow }}</span>
+				<h1 class="mt-4 max-w-lg text-4xl font-semibold sm:text-6xl">{{ entry.heroTitle }}</h1>
+				<p class="mt-6 max-w-md">{{ entry.heroSupporting }}</p>
+				<div class="mt-10 flex justify-center items-center gap-x-10 sm:justify-normal">
+					<a href="#" class="px-6 py-2.5 text-sm font-semibold shadow-sm border border-white hover:bg-gray-50 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-50">Download</a>
+					<a href="#" class="text-sm font-semibold leading-6 underline">Read More</a>
+				</div>
+			</div>
+			<div class="mb-16 mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow lg:-mb-40">
+				<img class="mx-auto max-w-xs" src="images/hero-phone.png" alt="phone">
+			</div>
+		</div>
+	</div>
+</div></div><div class="mx-8 lg:mx-8">
+<div class="mx-auto max-w-7xl py-20 lg:flex lg:items-center">
+	<div class="relative mx-auto max-w-2xl lg:flex-shrink-0 lg:flex-grow">
+		<img class="" src="images/floating-phones.png" alt="two phones floating">
+	</div>
+	<div class="mx-auto max-w-md mt-16 lg:mt-0 lg:-ml-32 lg:mr-32 lg:flex-auto">
+		<span class="font-cousine font-bold text-[#6d2c90]">{{ entry.secondaryEyebrow }}</span>
+		<h2 class="mt-4 max-w-lg text-2xl font-bold text-gray-900 sm:text-4xl">{{ entry.secondaryHeadline }}</h2>
+		<p class="mt-6 text-lg leading-8 text-gray-600">{{ entry.secondarySupport }}</p>
+	</div>
+</div></div><div class="bg-[url('../images/phone-in-hand.jpg')] bg-cover bg-center bg-no-repeat lg:bg-[size:145%] lg:bg-[position:0%_60%]">
+<div class="mx-auto flex flex-col items-center justify-center text-center max-w-7xl px-6 py-16 lg:px-8">
+	<div class="mx-auto max-w-md lg:flex-auto">
+		<span class="font-cousine font-bold text-[#58ffff]">Consequat mauris</span>
+		<h2 class="my-4 text-2xl font-bold sm:text-4xl">Nunc lobortis mattis
+		</h2>
+		<p class="mb-6">Maecenas pharetra convallis posuere morbi
+			            leo urna. Molestie nunc non blandit.</p>
+		<a href="#" class="px-6 py-2.5 text-sm font-semibold shadow-sm border border-white hover:bg-gray-50 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-50">Contact
+			            Us</a>
+	</div>
+</div></div>{% endblock %}

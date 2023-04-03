@@ -1,0 +1,84 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: f210e096-bdd3-40fe-97ef-38538fc7b0a3 # Homepage
+handle: secondaryImage
+instructions: 'Image for the secondary section - Should be less than 1000x650'
+name: 'Secondary Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds: null
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:c2709688-1d6f-4864-b11b-3110582eafa7' # My Images
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  previewMode: full
+  restrictFiles: false
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:c2709688-1d6f-4864-b11b-3110582eafa7' # My Images
+  restrictedLocationSubpath: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Asset
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\assets\AssetCondition
+      -
+        - conditionRules
+        -
+          -
+            __assoc__:
+              -
+                - class
+                - craft\elements\conditions\assets\WidthConditionRule
+              -
+                - uid
+                - 00f4f6d2-47f1-4a91-8de0-9cf629d9daf7
+              -
+                - operator
+                - '<='
+              -
+                - value
+                - '1000'
+              -
+                - maxValue
+                - ''
+          -
+            __assoc__:
+              -
+                - class
+                - craft\elements\conditions\assets\HeightConditionRule
+              -
+                - uid
+                - 3d3e6d54-a5e0-4510-851e-ea33c435d81e
+              -
+                - operator
+                - '<='
+              -
+                - value
+                - '650'
+              -
+                - maxValue
+                - ''
+  selectionLabel: null
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

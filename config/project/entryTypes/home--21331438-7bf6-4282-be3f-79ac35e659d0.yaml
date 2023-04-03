@@ -1,0 +1,127 @@
+fieldLayouts:
+  fa18e90a-c2e7-4023-8e3a-93534eddaebd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1b8abfd0-f5ea-46d6-aae2-72fa07681572
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 714398b2-7232-4afe-98c9-8dde36542f0d # Hero Eyebrow
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d6b3b8a7-efc0-43cf-bd00-95a7e62980ce
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 38c6a789-59e7-44b6-8314-bafbe6c06a48 # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6e36f4f1-a6fb-4420-96b0-e1fcc1d320aa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b022d300-23f6-45e6-8c9a-c66164e8ec0f # Hero Supporting
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9f2e9e12-9638-4e70-a1b7-c813d11ee5cb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 89acaeec-f2d8-4920-8b4e-f35e3f6b6894 # Secondary Eyebrow
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fe32a9a5-de4a-47cd-96c0-ff69fba058ca
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e2cb19a3-e8ca-4343-a090-18e8e5787a46 # Secondary Headline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3592ff4d-2775-4bd2-ba7a-961c0e4a913a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 70797519-a5ad-4e4c-b23f-5f508c9e5784 # Secondary Support
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 430b1a86-792e-45ef-b69f-6aaf15441d98
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 97efe54c-b023-4cd0-ad5e-8aaa31c47c48 # Secondary Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 54e7bb4e-25a7-4d91-9bf2-32cb60cfc00d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0f7074c1-0e66-4fd9-9f8c-b4ccdd75decf
+        userCondition: null
+handle: home
+hasTitleField: false
+name: home
+section: fd17732b-8ebf-470d-8bb3-2c1e7de52c54 # home
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

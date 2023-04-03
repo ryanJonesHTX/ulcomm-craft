@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: company
+name: Company
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  8871c68b-dbfc-402b-a613-94b6e6412901: # UnleadedCraft
+    enabledByDefault: true
+    hasUrls: true
+    template: company.twig
+    uriFormat: company
+type: single

@@ -1,0 +1,19 @@
+columnSuffix: retlkhkj
+contentColumnType: string(160)
+fieldGroup: f210e096-bdd3-40fe-97ef-38538fc7b0a3 # Homepage
+handle: secondaryHeadline
+instructions: 'Headline for Secondary Section'
+name: 'Secondary Headline'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 40
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

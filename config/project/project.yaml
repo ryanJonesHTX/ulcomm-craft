@@ -1,0 +1,56 @@
+dateModified: 1680409099
+email:
+  fromEmail: rajones429@gmail.com
+  fromName: UnleadedCraft
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: false
+    name: Images
+    settings:
+      path: '@webroot/myimages'
+    type: craft\fs\Local
+    url: null
+meta:
+  __names__:
+    5b78aeb7-79f9-4429-ad49-327931b75cd5: 'Public Schema' # Public Schema
+    5e03fa67-9a48-43fa-ab59-5b6e7c5f7389: Excerpt # Excerpt
+    8a7d1eaf-5065-452e-9a5d-eb0bac2b2d01: UnleadedCraft # UnleadedCraft
+    38c6a789-59e7-44b6-8314-bafbe6c06a48: 'Hero Title' # Hero Title
+    39eea2a3-598d-42c8-a341-1e2e15b32dc0: News # News
+    71eb081b-f343-481a-9a56-13bbd3a29573: Common # Common
+    89acaeec-f2d8-4920-8b4e-f35e3f6b6894: 'Secondary Eyebrow' # Secondary Eyebrow
+    97efe54c-b023-4cd0-ad5e-8aaa31c47c48: 'Secondary Image' # Secondary Image
+    8871c68b-dbfc-402b-a613-94b6e6412901: UnleadedCraft # UnleadedCraft
+    714398b2-7232-4afe-98c9-8dde36542f0d: 'Hero Eyebrow' # Hero Eyebrow
+    21331438-7bf6-4282-be3f-79ac35e659d0: home # home
+    25838057-8c94-44f1-a00e-08ced8c95bf5: 'Public Schema' # Public Schema
+    70797519-a5ad-4e4c-b23f-5f508c9e5784: 'Secondary Support' # Secondary Support
+    a52d93b5-142e-408c-97e6-d8092e67edc5: News # News
+    b022d300-23f6-45e6-8c9a-c66164e8ec0f: 'Hero Supporting' # Hero Supporting
+    b25ce7fb-a163-4fc9-b94a-e0facbf6ab5b: News # News
+    c9b4bf9a-131d-42f4-9c79-17c7320e9341: Company # Company
+    c2709688-1d6f-4864-b11b-3110582eafa7: 'My Images' # My Images
+    e2cb19a3-e8ca-4343-a090-18e8e5787a46: 'Secondary Headline' # Secondary Headline
+    e5415fad-6646-4747-9926-43c065d71f03: Body # Body
+    f210e096-bdd3-40fe-97ef-38538fc7b0a3: Homepage # Homepage
+    f406ce49-d8d5-4fb3-a752-55306d6735b1: Company # Company
+    fd17732b-8ebf-470d-8bb3-2c1e7de52c54: home # home
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: UnleadedCraft
+  retryDuration: null
+  schemaVersion: 4.4.0.4
+  timeZone: America/Swift_Current
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

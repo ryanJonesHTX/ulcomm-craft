@@ -1,0 +1,19 @@
+columnSuffix: fwqeysxu
+contentColumnType: text
+fieldGroup: b25ce7fb-a163-4fc9-b94a-e0facbf6ab5b # News
+handle: excerpt
+instructions: 'Brief excerpt'
+name: Excerpt
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

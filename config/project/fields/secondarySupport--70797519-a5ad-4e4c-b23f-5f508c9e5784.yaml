@@ -1,0 +1,19 @@
+columnSuffix: naqibkiy
+contentColumnType: string(800)
+fieldGroup: f210e096-bdd3-40fe-97ef-38538fc7b0a3 # Homepage
+handle: secondarySupport
+instructions: 'Supporting Text for the secondary section'
+name: 'Secondary Support'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 200
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

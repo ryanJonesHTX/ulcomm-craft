@@ -1,0 +1,14 @@
+{% extends "_layouts/nav.twig"%}
+
+{% block content %}
+	<div class="mx-auto max-w-7xl px-6 pt-20 flex justify-center lg:px-24 text-gray-600">
+		<div class="mx-auto mt-16 mb-16 border p-6">
+			<h2 href="/" class="text-2xl font-bold">{{ entry.title }}</h2>
+			<span>Author:
+				{{ entry.author }}</span>
+			<span>Published:
+				{{ entry.postDate | date("M d, Y") }}</span>
+			<p class="text-sm">{{ entry.body }}</p>
+		</div>
+	</div>
+{% endblock %}
